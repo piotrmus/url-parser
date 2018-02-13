@@ -1,0 +1,32 @@
+{
+  "name": "piotr/url-parser",
+  "type": "library",
+  "description": "The Universal URL Parsing library.",
+  "keywords": [
+    "url",
+    "parser",
+    "urlparser"
+  ],
+  "license": "LGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Piotr Musiał",
+      "email": "piotr.musial@codehat.pl",
+      "homepage": "https://codehat.pl"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "UrlParser\\": ""
+    }
+  },
+  "suggest": {
+    "doctrine/cache": "Can directly be used for caching purpose"
+  }
+}
